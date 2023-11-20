@@ -71,7 +71,7 @@ yarn add --dev typescript
 ### Add this line under scripts in package.json file
 
 ```
-"start": "ts-node-dev --respawn --transpile-only src/index.ts"
+"start": "ts-node-dev --respawn --transpile-only"
 ```
 
 ### Create a folder with name `src` and create a file with `index.ts` in this directory
@@ -84,11 +84,11 @@ yarn add --dev typescript
 ### Write something or console in index.ts then run the project with this command
 
 ```
-npm start
+npm start src/index.ts
 ```
 
 or
 
 ```
-yarn start
+yarn start src/index.ts
 ```
