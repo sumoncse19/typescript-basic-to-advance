@@ -12,10 +12,18 @@ tsc --init
 npm init -y
 ```
 
+```
+yarn init -y
+```
+
 ### nodemon
 
 ```
 npm i -D nodemon
+```
+
+```
+yarn add -D nodemon
 ```
 
 ### ts-node-dev
