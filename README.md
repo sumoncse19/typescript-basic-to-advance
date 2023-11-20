@@ -1,24 +1,24 @@
-### Configure TypeScript
+# Configure TypeScript
 
-# tsconfig
+### tsconfig
 
 ```
 tsc --init
 ```
 
-# package.json
+### package.json
 
 ```
 npm init -y
 ```
 
-# nodemon
+### nodemon
 
 ```
 npm i -D nodemon
 ```
 
-# ts-node-dev
+### ts-node-dev
 
 ```
 npm i ts-node-dev
@@ -30,20 +30,20 @@ or
 yarn add ts-node-dev --dev
 ```
 
-# Add this line under scripts in package.json file
+### Add this line under scripts in package.json file
 
 ```
 "start": "ts-node-dev --respawn --transpile-only src/index.ts"
 ```
 
-# Create a folder with name `src` and create a file with `index.ts` in this directory
+### Create a folder with name `src` and create a file with `index.ts` in this directory
 
-# In the tsconfig file uncomment this line:
+### In the tsconfig file uncomment this line:
 
 - "rootDir": "./src"
 - "outDir": "./dist"
 
-# Write something or console in index.ts then run the project with this command
+### Write something or console in index.ts then run the project with this command
 
 ```
 npm start
