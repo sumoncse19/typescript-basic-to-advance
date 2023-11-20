@@ -2,6 +2,14 @@
 
 ### tsconfig
 
+### Check tsc is installed or not `tsc --version` if tsc is not found then run:
+
+```
+npm install -g typescript
+```
+
+### After installing tsc config the tsc
+
 ```
 tsc --init
 ```
@@ -35,7 +43,29 @@ npm i ts-node-dev
 or
 
 ```
-yarn add ts-node-dev --dev
+yarn add ts-node-dev
+```
+
+### install typescript
+
+- Global Installation
+
+```
+npm install --global typescript
+```
+
+```
+yarn global add typescript
+```
+
+- Local Installation (Project wise)
+
+```
+npm install --save-dev typescript
+```
+
+```
+yarn add --dev typescript
 ```
 
 ### Add this line under scripts in package.json file
