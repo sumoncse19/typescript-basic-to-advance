@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only",
-    "dist": "tsc"
+    "build": "tsc"
   },
   "repository": "https://github.com/sumoncse19/typescript-basic-to-advance.git",
   "author": "sumoncse19 <mdsumoncse19@gmail.com>",
