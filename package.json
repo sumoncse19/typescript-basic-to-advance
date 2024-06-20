@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only"
+    "start": "ts-node-dev --respawn --transpile-only",
+    "dist": "tsc"
   },
   "repository": "https://github.com/sumoncse19/typescript-basic-to-advance.git",
   "author": "sumoncse19 <mdsumoncse19@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "typescript": "^5.3.2"
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "ts-node-dev": "^2.0.0"
